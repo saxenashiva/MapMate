@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <link rel="stylesheet" href="/public/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <title>WebNiti</title>
+    <link rel="icon" href="public/images/favicon copy.ico" type="image/x-icon">
+
+    <style>
+        @media (max-width: 991px) {
+            #backToTopBtn {
+                height: 3rem;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+   
+    <section class="home-page" id="navbar">
+        <header>
+           <div id="logo">
+            <img src="MapMate.png" alt="mapmate">
+           </div>
+               
+                
+
+            </div>
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">&#9776;</label>
+            <nav class="navbar">
+                <ul class="navbar-content">
+                    <li class="navbar-list"><a class="navbar-list-link nav-white-bottom" href="/index.html">Home</a>
+                    </li>
+                    <li class="navbar-list"><a class="navbar-list-link nav-white-bottom" href="#About-us">About</a></li>
+                    <li class="navbar-list"><a class="navbar-list-link nav-white-bottom" href="#Services">Services</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <section class="banner bubble-container">
+            <div class="banner-content">
+
+                <div class="banner-text-container" id="top">
+                    <h1>Welcome to <span class="webneeti">MapMate</span></h1>
+                    <p>We're here to provide exceptional social networking experience that enables users to 
+                        connect with others and discover nearby places.
+                        </p>
+                    <br><br><br>
+                    <!-- <a href="#" class="button-menu"><span>Explore More</span>
+                    </a> -->
+
+                </div>
+                <div class="banner-image-container">
+                    <br> <br> <br> <img class="banner-image" src="logo.mapchat.jpeg"
+                        alt="Custom Banner Image">
+                </div>
+
+            </div>
+        </section>
+    </section>
+    <section id="About-us" class="about-us">
+        <div class="about">
+            <div class="about-image">
+                <img src="userimage.jpeg" class="pic" alt="Team Image">
+            </div>
+            <div class="text">
+                <h2 style="border-bottom: 2px solid;">About Us</h2>
+                <h5>Social Networking & <span class="about-span">Connect</span></h5>
+                <p>Welcome to<span class="webneeti">MapMate</span>, where the app harnesses geolocation technology and user profiles to facilitate real-world social interactions. Users can share their real-time locations with friends, explore nearby points of interest, create and join events, receive geofenced notifications, and engage in location-based chats. “MapMate" is designed to enhance the way users interact with their environment and make 
+                    it easier to connect with people who are nearby and share common interests.
+            </p>
+                <div class="data">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="services-section" id="Services">
+        <div class="container">
+            <h2 class="service-heading" style="border-bottom: 2px solid;color:rgb(17, 6, 97);">Our Services</h2>
+            <section class="services">
+                <div class="card">
+                    <div class="content">
+                        <div class="icon"><i class="bi bi-code"></i></div>
+                        <div class="title">Location Sharing, discover nearby places, event check-ins</div>
+                        <p class="services-para">users can share their real-time location with friends or family and check into events happenning at specific locations. Users can also discover nearby resturants, cafes, parks, and other points of interests.
+                            It can also provide information like review, ratings, reviews and photos.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="icon"><i class="bi bi-phone"></i></div>
+                        <div class="title">Geofenced Notifications, Directions and Navigation, Local Reviews and Recommendations</div>
+                        <p class="services-para">users can set up geofences on the map. This app offers turn-by-turn navigation.
+                            Also, users can leave reviews and recommendations for places they have visited.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="icon"><i class="bi bi-journals"></i></div>
+                        <div class="title">Location-Based Chat, Emergency Assistance, User Privacy and Security</div>
+                        <p class="services-para">MapMate includes a chat feature and in case of emergencies users can press panic button that sends their location to predefined list of emergency contact</p>
+                    </div>
+            </section>
+           
+        </div>
+    </section>
+
+
+    
+        <a class="next-btn" onclick="plusTestimonials(1)"></a>
+        <div class="dot-container">
+            <span class="dot" onclick="currentTestimonial(1)"></span>
+            <span class="dot" onclick="currentTestimonial(2)"></span>
+            <span class="dot" onclick="currentTestimonial(3)"></span>
+        </div>
+    </div>
+    </section>
+    <!-- End of custom testimonials -->
+    </div>
+    </section>
+   
+
+    <section class="footer-section d-flex flex-column justify-content-center w-100 h-100">
+        <div class="row-footer" id="footer">
+            <div class="footer-content" id="f1">
+                <h1>About Us</h1>
+                <p>MapMate is designed to enhance the way users interact with their environment and make it easier to connect with people who are nearby and share common interests.</p>
+                <br>
+               
+            <div class="footer-content">
+               
+              
+            </div>
+            <div class="footer-content">
+                <h1>Services</h1>
+                <ul>
+                    <li>Location Sharing</li>
+                    <li>Discover Nearby Places </li>
+                    <li>Event Check-Ins</li>
+                    <li>Geofenced Notifications</li>
+                    <li>Directions and Navigation</li>
+                    <li>Local Reviews and Recommendations</li>
+                    <li>Location Based Chat</li>
+                    <li>Emergency Assistance</li>
+                    <li>User Privacy and Security</li>
+                    
+
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2023- MapMate.com</p>
+        </footer>
+    </section>
+
+    <!-- Back to top button -->
+    <a id="backToTopBtn" href="#navbar"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg>
+    </a>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
